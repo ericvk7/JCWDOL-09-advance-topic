@@ -3,17 +3,8 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 
 function App() {
-  const Button = (props) => <button style={props.style}>Click Me</button>;
-  const Text = (props) => <button style={props.text}>Testing</button>;
-
-  const StyleButton = LearnHOC(Button);
-  const StyleText = LearnHOC(Text);
-
   return (
     <div>
-      {/* <StyleButton />
-      <Button />
-      <StyleText /> */}
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
