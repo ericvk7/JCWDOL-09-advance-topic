@@ -1,7 +1,5 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import LearnHOC from "./pages/LearnHOC";
 import Home from "./pages/Home";
 
 function App() {
